@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Home</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+    <header id="header">
+        <strong id="title">Home Page </strong>
+        
+        <a href="#header" id="home">Home</a>
+
+        <a href="#footer" id="contacts">Contacts</a>
+
+        <button id="socialButton">
+            Social Media <span id="socialsArrow"></span>
+        </button>
+    </header>
+
+    <aside id="media">
+        <a href="https://www.linkedin.com/in/andrew-brown-9332509b/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn_logo" width="40" height="40">
+            <span id="text"></span>
+        </a>
+
+        <a href="https://x.com/HAndrwbrown" target="_blank">
+            <img src="https://cdn3.vectorstock.com/i/1000x1000/73/22/capital-letter-x-logo-monogram-emblem-vector-7717322.jpg" alt="X_formerly_tweeter_logo" width="40" height="40">
+            <span id="text"></span>
+        </a>
+
+        <a href="https://github.com/Mfonb" target="_blank">
+            <img src="https://jumpcloud.com/wp-content/uploads/2017/06/github-logo.png" alt="gitHub_logo" width="40" height="40">
+            <span id="text"></span>
+        </a>
+    </aside>
+
+    <section class="profile">
+        <article>
+            <h1 id="about">About Me</h1>
+            <p id="desc">
+                My name is Andrew Ignatius Brown. An M.Sc. holder with enthusiasm in software development.
+                I have always had the passion for working with softwares for development, innovation, and problem solving.
+                This passion led to the choosing of the application of a programming software in discovery and development as a 
+                dissertation topic. 
+                In the process, I have acquired good skills and certification in Data Analysis, Algorithmic Design, and Software
+                Development. I am growing in the process; and aiming the best performance.
+            </p>
+        </article>
+    </section>
+
+
+    <section class="salients">
+        <a href="skills/index.html" class="btnSkills" id="skills">Skills</a>
+
+        <br>
+
+        <p id="btnProjects">Projects    ▼</p>
+        <article id="projects">
+            <a id="python" href="projects/pythonWeather/index.html">Python Weather App Project.</a>
+            <a id="sql" href="projects/sqlProject/index.html">E-Commerce Store Inventory and Sales Tracker Project.</a>
+            <a id="game" href="projects/gameProject/index.html">Guess the Number Game.</a>
+            <a id="mschool" href="projects/customer/index.html">Customers Segmentation Project.</a>
+        </article>
+
+        <br>
+
+        <a href="academics/index.html" id="togglebtnAcademics">Academics</a>
+
+        <br>
+
+        <a href="experience/index.html" id="togglebtnExperience">Experience</a>
+
+        <br>
+
+        <section>
+            <span id="btnResume">Resume      ▼          </span>
+            <a href="files/Andrew Brown CV.doc" download="andrewBrown_CV.doc" id="resume" class="hidden">
+                <span>📄 Download Word File of Resume</span>
+            </a>
+                <p class="hidden" id="resume2"></p>
+        </section>
+
+    </section>
+
+    <footer id="footer">
+        <p id="contact">Contacts:</p>
+        <a id="email" href="mailto:sandbreatherbrown@gmail.com"><img id="gmail" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail Logo" width="30">sandbreatherbrown@gmail.com</a>
+        <br>
+        <a id="phone2" href="tel:+447512096348"><img id="phone" src="https://cdn-icons-png.flaticon.com/512/159/159832.png" alt="Phone Logo" width="30">+447512096348</a>
+    </footer>
+
+
+</body>
+</html>
