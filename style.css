@@ -193,6 +193,10 @@ aside {
     font-size: 24px;
 }
 
+#btnProjects:hover {
+    background-color: rgb(66, 65, 65); /* Changes background on hover */
+}
+
 #projects {
     display: none;
     justify-content: space-between; /* Spreads content across button */
@@ -247,7 +251,7 @@ aside {
 }
 
 .btnSkills:hover {
-    background-color: rgb(184, 181, 181); /* Changes background on hover */
+    background-color: rgb(66, 65, 65) /* Changes background on hover */
 }
 
 /*  Section experience and itens */
@@ -273,7 +277,7 @@ aside {
 }
 
 #togglebtnExperience:hover {
-    background-color: rgb(184, 181, 181); /* Changes background on hover */
+    background-color: rgb(66, 65, 65) /* Changes background on hover */
 }
 
 #experience {
@@ -304,7 +308,7 @@ aside {
 }
 
 #togglebtnAcademics:hover {
-    background-color: rgb(184, 181, 181); /* Changes background on hover */
+    background-color: rgb(66, 65, 65) /* Changes background on hover */
 }
 
 #academics {
@@ -331,6 +335,10 @@ aside {
     /*margin: 10px 0;  Adds spacing above and below the button */
     cursor: pointer; /* Adds pointer cursor on hover */
     font-size: 24px;
+}
+
+#btnResume:hover {
+    background-color: rgb(66, 65, 65) /* Changes background on hover */
 }
 
 #resume {
