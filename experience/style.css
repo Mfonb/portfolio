@@ -92,11 +92,25 @@ aside {
     text-decoration: none;
 }
 
+.section {
+    display: grid;
+    align-content: start; /* Fixes content stretching issue */
+    grid-column-gap: 20px;
+    grid-template-columns: 2fr 5fr;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 .experience {
     color: white;
     display: grid;
-    max-width: 50%; /* Ensures 200px margin on both sides */
+    max-width: 80%; /* Ensures 200px margin on both sides */
     margin: 0 auto; /* Centers the section */
+}
+
+#image {
+    width: 400px; 
+    height: 400px;
 }
 
 .main {

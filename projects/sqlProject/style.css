@@ -92,17 +92,32 @@ aside {
     text-decoration: none;
 }
 
+#grid {
+    /*height: 15vh; */
+    display: grid;
+    align-content: flex-end;
+    grid-column-gap: 20px;
+    grid-template-columns: 2fr 5fr;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+#image {
+    width: 400px; 
+    height: 400px;
+}
+
 h1 {
     display: grid;
     color: rgb(219, 207, 207);
     margin: 0 auto;
-    max-width: 50%; /* Ensures 200px margin on both sides */
+    /*max-width: 50%; /* Ensures 200px margin on both sides */
 }
 
 #date {
     display: grid;
     color: whitesmoke;
-    max-width: 50%; /* Ensures 200px margin on both sides */
+    /*max-width: 50%; /* Ensures 200px margin on both sides */
     margin: 0 auto; /* Centers the section */
     font-style: italic;
 }
@@ -110,27 +125,27 @@ h1 {
 #brief {
     color: whitesmoke;
     display: grid;
-    max-width: 50%; /* Ensures 200px margin on both sides */
+    /*max-width: 50%; /* Ensures 200px margin on both sides */
     margin: 0 auto; /* Centers the section */
 }
 
 .details {
     color: whitesmoke;
     display: grid;
-    max-width: 50%; /* Ensures 200px margin on both sides */
+    /*max-width: 50%; /* Ensures 200px margin on both sides */
     margin: 0 auto; /* Centers the section */
 }
 
 .ref {
     background-color: rgb(212, 208, 209);
-    margin: 0 auto; /* Centers the section */
-    max-width: 26%;
+    /*margin: 0 auto; /* Centers the section */
+    max-width: 40%;
     display: grid;
 }
 
 #pdf {
-    margin: 0 auto; /* Centers the section */
-    max-width: 27%;
+    /*margin: 0 auto; /* Centers the section */
+    max-width: 40%;
     display: grid;
     color: rgb(41, 2, 2);
 }

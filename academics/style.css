@@ -92,15 +92,71 @@ aside {
     text-decoration: none;
 }
 
-.academics {
+/*.academics {
+    /*height: 15vh; */
+    /*display: grid;
+    align-content: flex-end;
+    grid-column-gap: 20px;
+    grid-template-columns: 2fr 5fr;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.training {
+    grid-template-columns: 1fr 5fr;
+    display: grid;
+    align-content: end;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.complex {
+    grid-template-columns: 1fr 5fr;
+    display: grid;
+    align-content: end;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+}
+
+
+.details {
     color: white;
     display: grid;
     max-width: 50%; /* Ensures 200px margin on both sides */
-    margin: 0 auto; /* Centers the section */
+    /*margin: 0 auto; /* Centers the section */
+/*}*/
+
+.academics {
+    display: grid;
+    align-content: start; /* Fixes content stretching issue */
+    grid-column-gap: 20px;
+    grid-template-columns: 2fr 5fr;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.training, .complex {
+    grid-template-columns: 1fr 5fr;
+    display: grid;
+    align-content: start; /* Ensures content does not stretch */
+    grid-column-gap: 20px;
+    margin-bottom: 20px; /* Removes need for <br> */
+}
+
+.details {
+    color: white;
+    display: grid;
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 .main {
     color: rgb(236, 174, 236);
+}
+
+#image {
+    width: 400px; 
+    height: 400px;
 }
 
 footer {
