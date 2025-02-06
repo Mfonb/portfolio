@@ -133,6 +133,7 @@ aside {
     grid-template-columns: 2fr 5fr;
     max-width: 80%;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .training, .complex {
@@ -140,7 +141,7 @@ aside {
     display: grid;
     align-content: start; /* Ensures content does not stretch */
     grid-column-gap: 20px;
-    margin-bottom: 20px; /* Removes need for <br> */
+    margin-bottom: 10px; /* Removes need for <br> */
 }
 
 .details {
