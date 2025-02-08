@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
             let fileSize = response.headers.get("Content-Length"); // Get file size in bytes
 
             if (fileSize) {
-                let sizeInKB = (fileSize / (1024)).toFixed(2); // Convert to MB
+                let sizeInKB = (fileSize / (1000)).toFixed(2); // Convert to MB
                 resumeSizeElement.textContent = `File size: ${sizeInKB} KB`;
                 //resumeSizeElement.textContent = `File size: ${sizeInMB} MB`;
             } else {
