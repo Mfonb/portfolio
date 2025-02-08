@@ -471,6 +471,11 @@ footer {
     #media {
         right: 1%;         /* Position 10px from the right */
     }
+
+    .iLogo {
+        height: 30px;
+        width: 30px;
+    }
     
     /* Section styling to center content */
     .salients {
@@ -592,6 +597,11 @@ footer {
 
     #media {
         right: 1%;         /* Position 10px from the right */
+    }
+
+    .iLogo {
+        height: 20px;
+        width: 20px;
     }
     
     /* Section styling to center content */
