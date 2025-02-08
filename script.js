@@ -129,7 +129,7 @@ function toggleResumeSections(event) {
 
 // Calculating resume file size
 document.addEventListener("DOMContentLoaded", function () {
-    let resumeFile = "files/Andrew Brown CV.doc"; // File path
+    let resumeFile = "files/Andrew_brown CV.docx"; // File path
     let resumeSizeElement = document.getElementById("resume2");
 
     // Use fetch API to get file size
