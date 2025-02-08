@@ -412,3 +412,251 @@ footer {
     color: whitesmoke;
     text-decoration: underline;
 }
+
+/* Tablet Media Queries */
+@media (max-width: 900px) {
+    #header {
+        height: 10vh;
+        display: grid;
+        align-content: flex-end;
+        grid-column-gap: 5px;
+    }
+
+    #title {
+        size: 30px;
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #home {
+        size: 20px;
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-content: center;
+    }
+
+    #contacts {
+        size: 20px;
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-content: center;
+    }
+    
+    #socialButton {
+        size: 36px;
+        font-size: 22px;
+        text-decoration: none;
+    }
+
+    .profile {
+        display: flex;
+        max-width: 70%; /* Ensures 200px margin on both sides */
+    }
+    
+    #about {
+        font-size: 25px;
+    }
+    
+    #desc {
+        font-size: 18px;
+    }
+
+    #media {
+        right: 1%;         /* Position 10px from the right */
+    }
+    
+    /* Section styling to center content */
+    .salients {
+        max-width: 55%; /* Leaves 200px margin on each side */
+        margin: 0 auto; /* Centers the section horizontally */
+        padding-left: 0;
+        padding-right: 30px;
+        padding-top: 0;
+    }
+
+    /* Button styling for Skills */
+    .btnSkills {
+        font-size: 22px;
+    }
+
+    #btnProjects {
+        font-size: 22px;
+    }
+    
+    #projects {
+        font-size: 22px;
+        height: auto;
+    }
+    
+    /*  Section experience and itens */
+    #togglebtnExperience {
+        font-size: 22px;
+    }
+    
+    #togglebtnExperience:hover {
+        background-color: rgb(66, 65, 65) /* Changes background on hover */
+    }
+    
+    /*  Section academics and itens */
+    #togglebtnAcademics {
+        font-size: 22px;
+    }
+    
+    /*  Section Resume and items */
+    #btnResume {
+        font-size: 22px;
+    }
+    
+    #resume {
+        font-size: 18px;
+    }
+    
+    #resume2 {
+        font-size: 18px;
+    }
+    
+    footer {
+        width: 300px;
+        font-size: 18px;
+    }
+}
+
+
+/* Mobile Media Queries */
+@media (max-width: 550px) {
+    #header {
+        height: 7vh;
+        grid-column-gap: 2px;
+    }
+
+    #title {
+        size: 30px;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #home {
+        font-size: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #home:hover {
+        font-size: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #contacts {
+        font-size: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #contacts:hover {
+        font-size: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    #socialButton {
+        size: 36px;
+        font-size: 17px;
+    }
+
+    #socialButton:hover {
+        size: 36px;
+        font-size: 17px;
+    }
+
+    .profile {
+        display: flex;
+        max-width: 80%; /* Ensures 200px margin on both sides */
+    }
+    
+    #about {
+        font-size: 20px;
+    }
+    
+    #desc {
+        font-size: 16px;
+    }
+
+    #media {
+        right: 1%;         /* Position 10px from the right */
+    }
+    
+    /* Section styling to center content */
+    .salients {
+        max-width: 60%; /* Leaves 200px margin on each side */
+        margin: 0 auto; /* Centers the section horizontally */
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    /* Button styling for Skills */
+    .btnSkills {
+        font-size: 19px;
+        height: 15px;
+        text-decoration: none;
+    }
+
+    #btnProjects {
+        font-size: 19px;
+        height: 15px;
+        text-decoration: none;
+    }
+    
+    #projects {
+        font-size: 19px;
+        height: auto;
+    }
+    
+    /*  Section experience and itens */
+    #togglebtnExperience {
+        font-size: 19px;
+        height: 15px;
+        text-decoration: none;
+    }
+    
+    #togglebtnExperience:hover {
+        font-size: 19px;
+        height: 15px;
+        text-decoration: none;
+    }
+    
+    /*  Section academics and itens */
+    #togglebtnAcademics {
+        font-size: 19px;
+        height: 15px;
+        text-decoration: none;
+    }
+    
+    /*  Section Resume and items */
+    #btnResume {
+        font-size: 19px;
+        height: 15px;
+        text-decoration: none;
+    }
+    
+    #resume {
+        font-size: 17px;
+    }
+    
+    #resume2 {
+        font-size: 17px;
+    }
+    
+    footer {
+        width: 300px;
+        font-size: 16px;
+    }
+}
