@@ -317,6 +317,8 @@ footer {
 
     .academics {
         font-size: 16px;
+        grid-template-columns: 2fr 5fr;
+        max-width: 100%;
     }
 
     footer {
