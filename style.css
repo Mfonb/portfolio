@@ -219,7 +219,7 @@ aside {
 }
 
 #python {
-    color: rgb(228, 56, 99);
+    color: rgb(29, 132, 173);
     background-color: black;
 }
 #python:hover {
@@ -227,7 +227,7 @@ aside {
 }
 
 #sql {
-    color: rgb(84, 46, 187);
+    color: rgb(228, 56, 99);
     background-color: black;
 }
 #sql:hover {
@@ -235,7 +235,7 @@ aside {
 }
 
 #mschool {
-    color: rgb(201, 25, 25);
+    color: rgb(26, 204, 115);
     background-color: black;
 }
 #mschool:hover {
