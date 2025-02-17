@@ -103,6 +103,7 @@ aside {
     color: white;
     border-radius: 5px;
     grid-template-columns: 1fr, 6fr;
+    font-size: 17px;
 }
 
 #img {
@@ -124,6 +125,15 @@ aside {
     margin: 0;
     grid-column: 2;
     grid-row: 2;
+}
+
+.reference {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.reference:hover {
+    text-decoration: underline;
 }
 
 #css {
